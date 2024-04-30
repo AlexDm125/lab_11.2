@@ -1,0 +1,133 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	color: 000;
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+ul, li {
+	display: block;
+}
+
+.container {
+	width: 1170px;
+	height: 900px;
+	margin: auto;
+}
+
+.header {
+	background: url('../img/header-bg.jpg') no-repeat center top / cover ;
+	padding-top: 57px;
+	margin-bottom: 113px;
+}
+
+header a {
+	color: #FFFFFF;
+}
+
+.menu {
+	display: flex;
+	padding: 0;
+	margin-left: 69px;
+}
+
+.menu li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.menu li{
+	font-size: 14px;
+	margin-right: 40px;
+}
+
+.tel {
+	font-size: 17px;
+	text-decoration: none;
+	margin-left: auto;
+	letter-spacing: 0.1em;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.1em;
+}
+
+.offer {
+	color: #FFFFFF;
+	margin-top: 216px;
+	text-transform: uppercase;
+
+}
+
+
+.offer h2  {
+	font-size: 30px;
+}
+
+.offer h1  {
+	font-size: 100px;
+	margin-top: -7px;
+}
+
+.btn {
+	display: block;
+	text-decoration: none;
+	font-size: 17px;
+	border: 1px solid #FFFFFF;
+	text-align: center;
+	width: 238px;
+	padding: 17px 47px;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #FFFFFF;
+	color: #000000;
+}
+
+.desk {
+	display: flex;
+	justify-content: space-between;
+}
+
+.desk p {
+	width: 564px;
+	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.desk h3 {
+	font-size: 25px;
+}
+
+.about h2 {
+	margin-bottom: 58px;
+	font-size: 50px;
+}
+
+.img {
+	display: flex;
+	margin-top: 67px;
+	justify-content: space-between;
+}
+
+.footer1 {
+	display: flex;
+	margin-top: 114px;
+}
+
+.footer1 p {
+	margin-right: 55px;
+	font-family: 'Open Sans', sans-serif;
+}

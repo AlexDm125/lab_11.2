@@ -1,0 +1,110 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	color: 000;
+	font-size: 16px;
+	/*	font-family: 'Tinos', serif;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+
+ul, li {
+	display: block;
+}
+
+.container {
+	width: 1170px;
+	height: 900px;
+	margin: auto;
+}
+
+.header {
+	background: url('../img/hero-image.png') no-repeat center top / cover ;
+	padding-top: 50px;
+	margin-bottom: 113px;
+}
+
+
+/*#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a;
+    
+    for(a = 0 ; getchar() != EOF; ++a){}
+    
+    printf("\n");
+    cout<<a;
+    
+    return 0;
+}
+*/
+
+/*#include <iostream>
+#include <vector>
+#include <string>
+
+
+using namespace std;
+
+int main()
+{
+    int i;
+    vector <string> arr(10);
+    for(int i = 0; i < 5; ){
+            cin>>arr[i];
+            i++;
+    }
+    for(int i = 0; i < 5; i++ ){
+        cout<<arr[i]<<"\n";       
+    }
+    return 0;
+}*/
+
+/*#include <iostream>
+#include <vector>
+#include <string>
+#include <sstream>
+
+using namespace std;
+
+int main()
+{
+    vector<string> res;
+    string a;
+    int b;
+    for(b = 0; getchar() != EOF;b++ ){
+        cin>>a;
+        res.push_back(a);
+    }
+    printf("\n");
+    for(int i = 0; i < b; i++){
+    cout<<res[i]<<endl;
+    }
+    /*char a;
+    scanf("%c",&a);
+    cout<<a;*/
+    /*istringstream ss(a);
+  
+    string word;
+  
+    while (ss >> word) 
+    {
+        res.push_back(word);
+    }
+    for(int i = 0; i < 5; i++){
+    cout<<res[i];
+    }8*/
+    return 0;
+}
+
+*/
